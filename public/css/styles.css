@@ -1,0 +1,81 @@
+
+body{
+  
+    background-color: 	#f9f9f9;
+}
+.hrnav{
+    position: fixed;
+    width: 28px;
+    height: 100%;
+    background-color:white;
+    transition: 0.5s;
+    overflow: hidden;
+  
+
+}
+/* .hrnav:hover{
+   width: 100px; 
+} */
+.hrnav ul{
+    position: absolute;
+   padding-left:6px;
+    top:0;
+    left:0;
+    width: 100%;
+    }
+.hrnav ul li{
+   
+    position: relative;
+    width: 100%;
+    padding-bottom:10px;
+    display: block;
+    list-style: none;
+ 
+   
+}
+.hrnav ul li i{
+  
+    position: relative;
+    display:flex;
+   min-width: 60px;
+    height: 30px;
+
+  
+}
+.hrnav ul li i:hover{
+    background-color:	#f9f9f9 ;
+    
+}
+
+nav label{
+font-size: 45px;
+color:rgb(36, 36, 139);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+nav{
+    background:white;
+    height: 50px;
+    width:100%;
+  }
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 5px;
+    text-transform: lowercase;
+ 
+
+}
+.card{
+    float: right;
+    border-style: solid;
+    display:block;
+    text-align:center;
+    background-color: white;
+    margin: 0 auto;
+    padding:7px;
+
+}
