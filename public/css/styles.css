@@ -157,6 +157,9 @@ tr,th, td {
     table-layout: fixed;
     
  }
+.tweetpic{
+ background-size: contain;
+}
 @media only screen and (max-width: 1199px) {
     /* .card-container{
      
