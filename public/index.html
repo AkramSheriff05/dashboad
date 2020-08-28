@@ -2,20 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"></script>
     <script src="https://kit.fontawesome.com/b05201b0f1.js" crossorigin="anonymous"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <!-- <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script> -->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <title>dashboard</title>
 </head>
 <body>
   <nav>
     <label>spritle</label>
-      <ul> 
+      <ul class="nav"> 
         <li><i class="fa fa-search" aria-hidden="true"></i></li> 
-        <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+        <li><i class="fa fa-cog fa-spin" aria-hidden="true"></i></li>
          <li><i class="fa fa-bell" aria-hidden="true"></i></li>
-          <li><i class="fa fa-user-circle" aria-hidden="true" >akramsheriff</i></li>
+          <li><i class="fa fa-user-circle" aria-hidden="true"></i></li>
+          <h3>akramsheriff</h3>
          </ul>
   </nav>
   <div class="hrnav">
@@ -28,14 +32,154 @@
     <li><i class="fa fa-bar-chart" aria-hidden="true"></i></li>
     <li><i class="fa fa-line-chart" aria-hidden="true"></i></li>
  
-    </ul></div>
+</ul></div>
 
-    
+<div class="main-container">
+    <div class="card-container">
+          <div class="card">
+            <p>Users  +10%</p>
+            <h3>36.1k</h3>
+            <b>172,458 Targate Users</b>
+          </div>
+          <div class="card">
+            <p>Campaign Leads  +12.5%</p>
+            <h3>168,856</h3>
+            <b>472,458 Targated</b>
+        </div>
+        <div class="card">
+            <p>New Contacts  -2.8%</p>
+            <h3>73</h3>
+            <b> Targated</b>
+        </div>
         <div class="card">
             <p>Win/Loss Ratio</p>
             <h3>48:65</h3>
             <b>42:32 Targated</b>
         </div>
+  </div>  
+
   
+      <div class="graph">
+        <div class="graph-card">
+          <!-- <div id="chartContainer" style="height: 300px; width: 600px;"></div> -->
+          <div id="chartContainer" style="width: 80%; height: 300px;display: inline-block;"></div>          
+        </div>
+        <div class="graph-card">
+          <!-- <div id="chartContainer" style="height: 300px; width: 100%;"></div> -->
+          <div id="chartContainer3" style="width: 80%; height: 300px;display: inline-block;"></div>          
+        </div>
+        
+      </div> 
+
+<div class="stage2">
+  <div class="stage-map" >
+    <div id="map"  style="width: 80%; height: 200px;display: inline-block;">
+    <img src="img/download.jpg">
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Country</th>
+          <th scope="col">Session</th>
+          <th scope="col">Goals</th>
+          <th scope="col">Goals Rate</th>
+
+          <th scope="col">Bonus Rate</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Canada</th>
+          <td>55,555</td>
+          <td>210</td>
+          <td>2.46%</td>
+          <td>0.26%</td>
+        </tr>
+        <tr>
+          <th scope="row">India</th>
+          <td>20,755</td>
+          <td>1220</td>
+          <td>3.06%</td>
+          <td>1.26%</td>
+        </tr>
+        <tr>
+          <th scope="row">Uk</th>
+          <td>18,345</td>
+          <td>1100</td>
+          <td>3.86%</td>
+          <td>0.206%</td>
+        </tr>
+        <tr>
+          <th scope="row">Bostwana</th>
+          <td>12,000</td>
+          <td>810</td>
+          <td>1.6%</td>
+          <td>0.15%</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="stage-map" >
+    <div id="mapside"  style="width: 100%; height: 150px;display: inline-block; background-color:orange;">
+    <p style="color:white">Thanks for responing my mail and evaluating my skills 
+      if i get an entry level oppertunity sure I'll develope my skills 
+      better then this.
+    </p>
+    <b>Akram</b>
+    </div>
+    <div id="map"  style= " margin:30px; width: 80%; height: 200px;display: inline-block; background-color: yellow;"> </div>
+  </div>
+
+
+</div> 
+<div class="bottomfit">
+  
+  <div class="bottom"  >  <table class="table2" >
+    <thead>
+      <tr>
+        <th scope="col">lead<input type="checkbox" ></th>
+        <th scope="col">Session</th>
+        <th scope="col">Goals</th>
+        <th scope="col">Goals Rate</th>
+  
+        <th scope="col">Bonus Rate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Canada</th>
+        <td>55,555</td>
+        <td>210</td>
+        <td>2.46%</td>
+        <td>0.26%</td>
+      </tr>
+      <tr>
+        <th scope="row">India</th>
+        <td>20,755</td>
+        <td>1220</td>
+        <td>3.06%</td>
+        <td>1.26%</td>
+      </tr>
+      <tr>
+        <th scope="row">Uk</th>
+        <td>18,345</td>
+        <td>1100</td>
+        <td>3.86%</td>
+        <td>0.206%</td>
+      </tr>
+      <tr>
+        <th scope="row">Bostwana</th>
+        <td>12,000</td>
+        <td>810</td>
+        <td>1.6%</td>
+        <td>0.15%</td>
+      </tr>
+    </tbody>
+  </table></div>
+  
+  </div>
+  
+
+<script type="text/javascript"  src="js/js.js"></script>
 </body>
 </html>
